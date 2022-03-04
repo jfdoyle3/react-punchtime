@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+=======
+import {BrowserRouter} from 'react-router-dom';
+import './App.css';
+import AppRouter from './components/Routers/AppRouter';
+
+function App() {
+  return (
+    <BrowserRouter>
+      {/* Main Router */}
+      {/* Home page */}
+      {/* Time Sheet page */}
+      {/* Employee page */}
+      <AppRouter />
+    </BrowserRouter>
+
+>>>>>>> 86a88eed7f96fabdfa0bab09829df13e22f890ec
+  );
+}
+
+export default App;
