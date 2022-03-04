@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 // fontawesome spinner
 
 const Button = (props) => {
@@ -18,6 +19,12 @@ const Button = (props) => {
     </button>
   )
 
+}
+
+Button.propTypes={
+  type: PropTypes.string,
+  onClick: PropTypes.func.isRequired,
+  disabled: PropTypes.bool,
 }
 
 const styles = {
