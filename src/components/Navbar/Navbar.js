@@ -6,7 +6,7 @@ const Navbar=(props)=>{
     <Fragment>
       <div style={{
         backgroundColor: "#C9E4CA",
-        position: 'absolute',
+        position: 'fixed',
         width:'100%',
         zIndex: 9999,
         top: 0,
@@ -14,7 +14,7 @@ const Navbar=(props)=>{
         height: '75px',
         flexDirection: 'row',
         alignContent:'items',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
         }}>
 
         <h1 style={{
